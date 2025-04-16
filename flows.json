@@ -1,1 +1,3826 @@
-[]
+[
+    {
+        "id": "735cb50554f095a2",
+        "type": "tab",
+        "label": "Service Infos",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8d16e76f22ce946f",
+        "type": "tab",
+        "label": "LUBW (v1, Orion, depr) ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a0f9ae8f73e515f9",
+        "type": "tab",
+        "label": "LUBW (v2, Orion, depr)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5ef45f84a0404e21",
+        "type": "tab",
+        "label": "LUBW Helpers",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "77c0c8f18654550c",
+        "type": "tab",
+        "label": "LUBW [T Setup]",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e92a30bcc6a0047f",
+        "type": "tab",
+        "label": "LUBW [T Live]",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "81640f890b856275",
+        "type": "group",
+        "z": "735cb50554f095a2",
+        "name": "List all Orion entities for this service",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "cd6f2ebbab73b746",
+            "03c5c320efa5479d",
+            "6b11e004125d6615",
+            "595ef5261d258d47",
+            "319a6c3ab2717ee7"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 872,
+        "h": 82
+    },
+    {
+        "id": "917839193b7dbe37",
+        "type": "group",
+        "z": "735cb50554f095a2",
+        "name": "List all Orion subscriptions for this service",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6346f74f66518e87",
+            "5f621f342fbdf478",
+            "1bb9bcd093644cf7",
+            "6f9b660ec5e2a7e6",
+            "ac834e4d5d6b3c43"
+        ],
+        "x": 74,
+        "y": 279,
+        "w": 872,
+        "h": 82
+    },
+    {
+        "id": "c8214d0c397acb7c",
+        "type": "group",
+        "z": "735cb50554f095a2",
+        "name": "Show service name",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "656b0f478cc39c89",
+            "36fe5cdcdca0b645",
+            "4e052eba984b0c13"
+        ],
+        "x": 74,
+        "y": 79,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "63af9c0e4867d371",
+        "type": "group",
+        "z": "735cb50554f095a2",
+        "name": "List all QuantumLeap entities for this service (restricted to a specific service path)",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8cb9f5f1fd54075c",
+            "f64b651b3ef155db",
+            "7939861f54ebb8de",
+            "d6bbc7153d48b221",
+            "5db250385bcc192e",
+            "edb3d510c26458d7",
+            "4f70dfe7f38c3972"
+        ],
+        "x": 74,
+        "y": 379,
+        "w": 1132,
+        "h": 142
+    },
+    {
+        "id": "4b9fbd642b422e72",
+        "type": "group",
+        "z": "735cb50554f095a2",
+        "name": "Show QuantumLeap version",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "960b27032a104893",
+            "774d6c24833ba50a",
+            "cc86b5d09c0c86cd",
+            "928c597ad7a31938"
+        ],
+        "x": 74,
+        "y": 539,
+        "w": 812,
+        "h": 82
+    },
+    {
+        "id": "ba91b7eace7d51ab",
+        "type": "group",
+        "z": "8d16e76f22ce946f",
+        "name": "Log raw data  urn:raw:lubw:konstanz:<sensor>",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "77114355eb2aad75",
+            "83e25f11cdf0e44d",
+            "27ac9962d8cb1e44",
+            "20ff76b718ef9b85",
+            "14100ab0a20c42eb",
+            "371d89be275b93b9"
+        ],
+        "x": 214,
+        "y": 779,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "8ffcbb28a45e681c",
+        "type": "group",
+        "z": "8d16e76f22ce946f",
+        "name": "Get data from LUBW API",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "0d6f1183cb587ba0",
+            "c8fcf1117e2f3374",
+            "b42ae1a45af94281",
+            "f57b515db3f0f55c",
+            "299f08ef9e49a099",
+            "d7138154aa674ffc",
+            "df4caf2d6516190f",
+            "135e5aaeb36382ef"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 972,
+        "h": 282
+    },
+    {
+        "id": "6a5097b6a8936eb9",
+        "type": "group",
+        "z": "8d16e76f22ce946f",
+        "name": "Write normalized data  urn:sdm:AirQualityObserved:lubw:konstanz:<sensor>",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "936627a4bae722f1",
+            "0bb80f7dd9d154e3",
+            "3f23b24611534bcf",
+            "cea6d558a5d4a0d4",
+            "84992e305bf19a2b",
+            "6a211d7e7606ae51"
+        ],
+        "x": 214,
+        "y": 499,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "3615b193716ced14",
+        "type": "group",
+        "z": "a0f9ae8f73e515f9",
+        "name": "Log raw data  urn:raw:lubw:konstanz:<sensor>",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "f0210b351d9c3ab1",
+            "bf29418c6af4308a",
+            "86c2a575da3291af",
+            "e3ed5b79c253f8ef",
+            "bc2f910f127f59ee",
+            "4a9c4ff6f1dcbb01"
+        ],
+        "x": 294,
+        "y": 899,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "68cffc5d042468c7",
+        "type": "group",
+        "z": "a0f9ae8f73e515f9",
+        "name": "Write normalized data  urn:sdm:AirQualityObserved:lubw:konstanz:<sensor>",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "7452a91db77903d8",
+            "26512cb0687e4dc6",
+            "c163d58cf3719d96",
+            "307763dffaca0a50",
+            "8bd9afcbe14eb2fa",
+            "eb8836ce355538b3"
+        ],
+        "x": 294,
+        "y": 619,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "4248f3e1d2ee8e74",
+        "type": "group",
+        "z": "a0f9ae8f73e515f9",
+        "name": "Get data since last sync",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "9ec721f4966a2266",
+            "6cb9e26b9fad428a",
+            "374d347b7b6fe499",
+            "6af6c9fcd040a864"
+        ],
+        "x": 8,
+        "y": 99,
+        "w": 1068,
+        "h": 488
+    },
+    {
+        "id": "2af0b8669ed7a3f6",
+        "type": "group",
+        "z": "e92a30bcc6a0047f",
+        "name": "Log raw data  urn:raw:lubw:konstanz:<sensor>",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "fba836079483735c",
+            "57a493dae4b6a344",
+            "ed09b3b57b93cca9",
+            "10cdd2d0480f70c6",
+            "6504e795eadb1c06",
+            "bdee35b3a3b11cef"
+        ],
+        "x": 334,
+        "y": 919,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "16e81c92122c65b7",
+        "type": "group",
+        "z": "e92a30bcc6a0047f",
+        "name": "Write normalized data  urn:sdm:AirQualityObserved:lubw:konstanz:<sensor>",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "90fb447f4db18b6e",
+            "fd0a451e00e2e5d3",
+            "80f9a4eb784fa5a2",
+            "6301e51f816975aa",
+            "5c842c2bbe1b578b",
+            "bdebb3e54f40c9ea"
+        ],
+        "x": 334,
+        "y": 639,
+        "w": 572,
+        "h": 222
+    },
+    {
+        "id": "f4b09cd43f0f361f",
+        "type": "group",
+        "z": "e92a30bcc6a0047f",
+        "name": "Get data since last sync",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "841ecdbe4db74f88",
+            "a846a2bf3f8d12b5",
+            "d6e2d12a9b4ca37d",
+            "ec45649c0a8c89ca",
+            "e62853720cf0fd15"
+        ],
+        "x": 48,
+        "y": 119,
+        "w": 1144,
+        "h": 488
+    },
+    {
+        "id": "ca5eeb628c0d6d7a",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "name": "Show service name",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "5c4302ce5dce1136",
+            "99a8ce67d52f0288",
+            "adda6578785c2fce"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "dc11a833da7816df",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "name": "Database Table - AirQualityObserved",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "3ed39dfea1bcec72",
+            "17bf151937c6a8f3",
+            "f22ca1b0081c2126",
+            "e050d224a69c5f67",
+            "2a4cd8866b4b9d18",
+            "b70fda7c2d04bd57",
+            "1011bc6efbacb0c7",
+            "1630bf7f0a2f22d0",
+            "1d3623bc18a517d0"
+        ],
+        "x": 68,
+        "y": 473,
+        "w": 1218,
+        "h": 248
+    },
+    {
+        "id": "2d31311821583692",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "name": "Create Database Schema",
+        "style": {
+            "fill": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "1fde0f9ee4fd3c20",
+            "de835ae4058ab6a1",
+            "4cc9d380ca29a365",
+            "b3bb223d6e2e7259",
+            "2425339b1ce6fd27",
+            "8427e22217ba2f7f",
+            "f00ece2082b314b4",
+            "1a5c186f2d287dda",
+            "b4c07bf5a4fd25ae"
+        ],
+        "x": 68,
+        "y": 193,
+        "w": 1218,
+        "h": 248
+    },
+    {
+        "id": "8792331ec774d717",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "name": "Show API-URL ",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "58ef137d45f31ebb",
+            "cc013feb4a43bcad",
+            "2778b8a3dfdac30e"
+        ],
+        "x": 714,
+        "y": 39,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "30400e35053c989e",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "name": "Database Table - Raw",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "9d67c680606f715a",
+            "1ea1dc20f7fdd773",
+            "5bb1780720af18bb",
+            "8866113c9d6c473e",
+            "62b1988c62ee2ac8",
+            "0be5aa34ecfd6ea9",
+            "f4ba38c07e4cfacd",
+            "05a1feb1e14906f1",
+            "14227ee915800d1f"
+        ],
+        "x": 68,
+        "y": 733,
+        "w": 1218,
+        "h": 248
+    },
+    {
+        "id": "9ec721f4966a2266",
+        "type": "group",
+        "z": "a0f9ae8f73e515f9",
+        "g": "4248f3e1d2ee8e74",
+        "name": "Get data from LUBW",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "930341d8117a8d47",
+            "290021a84fb97f28",
+            "c43702eb571e3c6d",
+            "1134b22d25e52c5a",
+            "100b26b5dacec0cb",
+            "7b80b966ec657846"
+        ],
+        "x": 34,
+        "y": 399,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "6cb9e26b9fad428a",
+        "type": "group",
+        "z": "a0f9ae8f73e515f9",
+        "g": "4248f3e1d2ee8e74",
+        "name": "Get state (last observation date) from Quantum Leap",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "b4f0f5ebe527ee2c",
+            "93ddfb64023897c0",
+            "716dbb74c3ccd267",
+            "60bf251c7e629dcc",
+            "4b5944ea7540206e",
+            "7c9316af2ce87118",
+            "cf70dfe775ef8bc9",
+            "7072b0b3eaf05faa"
+        ],
+        "x": 34,
+        "y": 179,
+        "w": 742,
+        "h": 202
+    },
+    {
+        "id": "841ecdbe4db74f88",
+        "type": "group",
+        "z": "e92a30bcc6a0047f",
+        "g": "f4b09cd43f0f361f",
+        "name": "Get data from LUBW",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "90d29909c092bfa9",
+            "78977dd0a3aada20",
+            "29ef1c8c80c15bcf",
+            "0b898546cdc65084",
+            "8a24358847535040",
+            "5f12de4d286a02b5"
+        ],
+        "x": 74,
+        "y": 419,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "a846a2bf3f8d12b5",
+        "type": "group",
+        "z": "e92a30bcc6a0047f",
+        "g": "f4b09cd43f0f361f",
+        "name": "Get state (last observation date) from Quantum Leap",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "6fb92eeddce1cdc8",
+            "42e8e5e34809adb7",
+            "c8056dd4554de7bc",
+            "ac3b651070897bf1",
+            "cc9514770fba60dc"
+        ],
+        "x": 74,
+        "y": 199,
+        "w": 742,
+        "h": 202
+    },
+    {
+        "id": "2a4cd8866b4b9d18",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "b9553a1cdb5e15c9",
+            "58771ea04a2073e4",
+            "013fc7de7925c10e"
+        ],
+        "x": 94,
+        "y": 499,
+        "w": 572,
+        "h": 142
+    },
+    {
+        "id": "2425339b1ce6fd27",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "096777924f968aaf",
+            "1bc1f6574915af03",
+            "0f96b7915dc9db2f"
+        ],
+        "x": 94,
+        "y": 219,
+        "w": 572,
+        "h": 142
+    },
+    {
+        "id": "62b1988c62ee2ac8",
+        "type": "group",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "e1da7cab7996779e",
+            "67cd6cefa5a1f5cf",
+            "c2ab6c53b0f8e476"
+        ],
+        "x": 94,
+        "y": 759,
+        "w": 572,
+        "h": 142
+    },
+    {
+        "id": "e62853720cf0fd15",
+        "type": "group",
+        "z": "e92a30bcc6a0047f",
+        "g": "f4b09cd43f0f361f",
+        "name": "What's the current state in the db?",
+        "style": {
+            "label": true,
+            "fill": "#dbcbe7",
+            "color": "#000000"
+        },
+        "nodes": [
+            "c6d89b0d84f79c17",
+            "186c4edbc2c472e2"
+        ],
+        "x": 874,
+        "y": 199,
+        "w": 292,
+        "h": 142
+    },
+    {
+        "id": "dceed866dd57010e",
+        "type": "group",
+        "z": "5ef45f84a0404e21",
+        "name": "Read Environment Variables",
+        "style": {
+            "label": true,
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "c2db68807cd6a139",
+            "8767214b09c3b933"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "ac23893feae710f1",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "data-timescale.prd-data-management-stack.svc.cluster.local",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "quantumleap",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "quantumleap",
+        "userFieldType": "str",
+        "password": "***",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "cd6f2ebbab73b746",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "81640f890b856275",
+        "name": "prepare request",
+        "func": "msg.url = env.get(\"SC_ORION_SERVER\") + \"/v2/entities\"\nmsg.headers = {};\nmsg.headers['Fiware-Service'] = env.get(\"FIWARE_SERVICE\");\nmsg.headers['Fiware-ServicePath'] = '/#';\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "03c5c320efa5479d"
+            ]
+        ]
+    },
+    {
+        "id": "03c5c320efa5479d",
+        "type": "http request",
+        "z": "735cb50554f095a2",
+        "g": "81640f890b856275",
+        "name": "GET",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "319a6c3ab2717ee7"
+            ]
+        ]
+    },
+    {
+        "id": "6b11e004125d6615",
+        "type": "inject",
+        "z": "735cb50554f095a2",
+        "g": "81640f890b856275",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 220,
+        "wires": [
+            [
+                "cd6f2ebbab73b746"
+            ]
+        ]
+    },
+    {
+        "id": "595ef5261d258d47",
+        "type": "debug",
+        "z": "735cb50554f095a2",
+        "g": "81640f890b856275",
+        "name": "Orion entities",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "count",
+        "statusType": "msg",
+        "x": 830,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6346f74f66518e87",
+        "type": "http request",
+        "z": "735cb50554f095a2",
+        "g": "917839193b7dbe37",
+        "name": "GET",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 320,
+        "wires": [
+            [
+                "ac834e4d5d6b3c43"
+            ]
+        ]
+    },
+    {
+        "id": "5f621f342fbdf478",
+        "type": "debug",
+        "z": "735cb50554f095a2",
+        "g": "917839193b7dbe37",
+        "name": "subscriptions",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "count",
+        "statusType": "msg",
+        "x": 830,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "1bb9bcd093644cf7",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "917839193b7dbe37",
+        "name": "prepare request",
+        "func": "msg.url = env.get(\"SC_ORION_SERVER\") + \"/v2/subscriptions\";\n\nmsg.headers = {};\nmsg.headers['Fiware-Service'] = env.get('FIWARE_SERVICE');\nmsg.headers['Fiware-ServicePath'] = '/#';\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 320,
+        "wires": [
+            [
+                "6346f74f66518e87"
+            ]
+        ]
+    },
+    {
+        "id": "656b0f478cc39c89",
+        "type": "inject",
+        "z": "735cb50554f095a2",
+        "g": "c8214d0c397acb7c",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "36fe5cdcdca0b645"
+            ]
+        ]
+    },
+    {
+        "id": "36fe5cdcdca0b645",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "c8214d0c397acb7c",
+        "name": "read environment",
+        "func": "return {payload : env.get('FIWARE_SERVICE')}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "4e052eba984b0c13"
+            ]
+        ]
+    },
+    {
+        "id": "4e052eba984b0c13",
+        "type": "debug",
+        "z": "735cb50554f095a2",
+        "g": "c8214d0c397acb7c",
+        "name": "service",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "319a6c3ab2717ee7",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "81640f890b856275",
+        "name": "count",
+        "func": "msg.count = 'n: ' + msg.payload.length;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 220,
+        "wires": [
+            [
+                "595ef5261d258d47"
+            ]
+        ]
+    },
+    {
+        "id": "6f9b660ec5e2a7e6",
+        "type": "inject",
+        "z": "735cb50554f095a2",
+        "g": "917839193b7dbe37",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "1bb9bcd093644cf7"
+            ]
+        ]
+    },
+    {
+        "id": "ac834e4d5d6b3c43",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "917839193b7dbe37",
+        "name": "count",
+        "func": "msg.count = 'n: ' + msg.payload.length;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 320,
+        "wires": [
+            [
+                "5f621f342fbdf478"
+            ]
+        ]
+    },
+    {
+        "id": "aefca57ea455860f",
+        "type": "comment",
+        "z": "735cb50554f095a2",
+        "name": "These flows use the FIWARE_SERVICE environment variable to set the Fiware Service HTTP Header",
+        "info": "",
+        "x": 430,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "8cb9f5f1fd54075c",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "prepare request",
+        "func": "msg.url = env.get(\"DM_QL_SERVER\") + \"/v2/entities\";\nmsg.headers = {};\nmsg.headers['Fiware-Service'] = env.get(\"FIWARE_SERVICE\");\nmsg.headers['Fiware-ServicePath'] = msg.servicePath;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 420,
+        "wires": [
+            [
+                "f64b651b3ef155db"
+            ]
+        ]
+    },
+    {
+        "id": "f64b651b3ef155db",
+        "type": "http request",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "GET",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 690,
+        "y": 420,
+        "wires": [
+            [
+                "5db250385bcc192e"
+            ]
+        ]
+    },
+    {
+        "id": "7939861f54ebb8de",
+        "type": "inject",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 420,
+        "wires": [
+            [
+                "edb3d510c26458d7"
+            ]
+        ]
+    },
+    {
+        "id": "d6bbc7153d48b221",
+        "type": "debug",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "QuantumLeap entities",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "count",
+        "statusType": "msg",
+        "x": 1020,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5db250385bcc192e",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "count",
+        "func": "msg.count = 'n: ' + msg.payload.length;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 420,
+        "wires": [
+            [
+                "d6bbc7153d48b221"
+            ]
+        ]
+    },
+    {
+        "id": "960b27032a104893",
+        "type": "function",
+        "z": "735cb50554f095a2",
+        "g": "4b9fbd642b422e72",
+        "name": "prepare request",
+        "func": "msg.url = env.get(\"DM_QL_SERVER\") + \"/version\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 580,
+        "wires": [
+            [
+                "774d6c24833ba50a"
+            ]
+        ]
+    },
+    {
+        "id": "774d6c24833ba50a",
+        "type": "http request",
+        "z": "735cb50554f095a2",
+        "g": "4b9fbd642b422e72",
+        "name": "GET",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 580,
+        "wires": [
+            [
+                "928c597ad7a31938"
+            ]
+        ]
+    },
+    {
+        "id": "cc86b5d09c0c86cd",
+        "type": "inject",
+        "z": "735cb50554f095a2",
+        "g": "4b9fbd642b422e72",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "960b27032a104893"
+            ]
+        ]
+    },
+    {
+        "id": "928c597ad7a31938",
+        "type": "debug",
+        "z": "735cb50554f095a2",
+        "g": "4b9fbd642b422e72",
+        "name": "QuantumLeap version",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 740,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "edb3d510c26458d7",
+        "type": "change",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "ServicePath",
+        "rules": [
+            {
+                "t": "set",
+                "p": "servicePath",
+                "pt": "msg",
+                "to": "/",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 420,
+        "wires": [
+            [
+                "8cb9f5f1fd54075c"
+            ]
+        ]
+    },
+    {
+        "id": "4f70dfe7f38c3972",
+        "type": "comment",
+        "z": "735cb50554f095a2",
+        "g": "63af9c0e4867d371",
+        "name": "GitHub issue regarding ServicePath",
+        "info": "https://github.com/orchestracities/ngsi-timeseries-api/issues/757",
+        "x": 1040,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "57eeddc106420671",
+        "type": "comment",
+        "z": "8d16e76f22ce946f",
+        "name": "LUBW - Umweltmessstation",
+        "info": "",
+        "x": 160,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "77114355eb2aad75",
+        "type": "http request",
+        "z": "8d16e76f22ce946f",
+        "g": "ba91b7eace7d51ab",
+        "name": "POST",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 980,
+        "wires": [
+            [
+                "14100ab0a20c42eb"
+            ]
+        ]
+    },
+    {
+        "id": "83e25f11cdf0e44d",
+        "type": "function",
+        "z": "8d16e76f22ce946f",
+        "g": "ba91b7eace7d51ab",
+        "name": "Build observations",
+        "func": "let observations = []\n\nfor (const [sensor, response] of Object.entries(msg.payload)) {\n    for (const mw of response.messwerte) {\n        if (mw.wert == null) { continue }\n\n        let o = {}\n        o.id = \"urn:raw:lubw:konstanz:\" + sensor \n        o.type = \"raw_lubw\"\n\n        o.time_index = {}\n        o.time_index.type = \"DateTime\"\n        o.time_index.value = mw.startZeit\n        \n        o.dateProcessed = {\n            type: 'DateTime',\n            value: new Date().toISOString(),\n        }\n\n        o.endZeit = {}\n        o.endZeit.type = \"DateTime\"\n        o.endZeit.value = mw.endZeit\n\n        o.startZeit = {}\n        o.startZeit.type = \"DateTime\"\n        o.startZeit.value = mw.startZeit\n\n        o.wert = {}\n        o.wert.type = \"Number\"\n        o.wert.value = mw.wert\n\n        o.komponente = {\n            type : \"TextUnrestricted\",\n            value : response.komponente,\n        }\n\n        o.komponente = {\n            type : \"TextUnrestricted\",\n            value : 42,\n        }\n\n        observations.push(o)\n    }\n}\n\nreturn { payload : observations }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 820,
+        "wires": [
+            [
+                "27ac9962d8cb1e44",
+                "371d89be275b93b9"
+            ]
+        ]
+    },
+    {
+        "id": "27ac9962d8cb1e44",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "ba91b7eace7d51ab",
+        "name": "raw observations",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "20ff76b718ef9b85",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "ba91b7eace7d51ab",
+        "name": "raw request",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "14100ab0a20c42eb",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "ba91b7eace7d51ab",
+        "name": "raw Orion response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 630,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "0d6f1183cb587ba0",
+        "type": "inject",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "Trigger 1h",
+        "props": [],
+        "repeat": "3600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8fcf1117e2f3374",
+        "type": "comment",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "Basic/Digest Auth mit LUBW Zugangsdaten setzen!",
+        "info": "",
+        "x": 790,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "936627a4bae722f1",
+        "type": "function",
+        "z": "8d16e76f22ce946f",
+        "g": "6a5097b6a8936eb9",
+        "name": "prepare Orion request",
+        "func": "let req = {}\n\nreq.url = env.get(\"SC_ORION_SERVER\")+\"/v2/op/update\"\n\nreq.headers = {\n    'Content-Type' : 'application/json',\n    'Fiware-Service' : env.get('FIWARE_SERVICE')\n};\n\nif (typeof msg.servicePath != 'undefined') {\n    req.headers['Fiware-ServicePath'] = msg.servicePath;\n}\n\nreq.payload = {}\nreq.payload.actionType = 'append'\nreq.payload.entities = msg.payload\n\nreturn req",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 620,
+        "wires": [
+            [
+                "84992e305bf19a2b",
+                "0bb80f7dd9d154e3"
+            ]
+        ]
+    },
+    {
+        "id": "0bb80f7dd9d154e3",
+        "type": "http request",
+        "z": "8d16e76f22ce946f",
+        "g": "6a5097b6a8936eb9",
+        "name": "POST",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 700,
+        "wires": [
+            [
+                "6a211d7e7606ae51"
+            ]
+        ]
+    },
+    {
+        "id": "b42ae1a45af94281",
+        "type": "split",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "split: <sensor>",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "sensor",
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "df4caf2d6516190f"
+            ]
+        ]
+    },
+    {
+        "id": "f57b515db3f0f55c",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "LUBW response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 780,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "299f08ef9e49a099",
+        "type": "change",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "split setup: <sensor>",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.pm10",
+                "pt": "msg",
+                "to": "PM10",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.pm25",
+                "pt": "msg",
+                "to": "PM2,5",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.o3",
+                "pt": "msg",
+                "to": "O3",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.no2",
+                "pt": "msg",
+                "to": "NO2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 240,
+        "y": 240,
+        "wires": [
+            [
+                "b42ae1a45af94281"
+            ]
+        ]
+    },
+    {
+        "id": "d7138154aa674ffc",
+        "type": "join",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "join: <sensor>",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "sensor",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "f57b515db3f0f55c",
+                "c7b8460b30189fe9"
+            ]
+        ]
+    },
+    {
+        "id": "df4caf2d6516190f",
+        "type": "function",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "prepare get",
+        "func": "let lubw_sensor = msg.payload;\n\nfunction format(date) {\n    const year = date.getFullYear();\n    const month = String(date.getMonth() + 1).padStart(2, '0');\n    const day = String(date.getDate()).padStart(2, '0');\n    const hours = String(date.getHours()).padStart(2, '0');\n    const minutes = String(date.getMinutes()).padStart(2, '0');\n    const seconds = String(date.getSeconds()).padStart(2, '0');\n\n    return `${year}-${month}-${day}T${hours}:${minutes}:${seconds}`;\n}\n\nlet start = new Date();\nstart.setHours(start.getHours() - 1);\n\nlet end = new Date();\n\nmsg.url = `https://mersyzentrale.de/www/Datenweitergabe/Konstanz/data.php?komponente=${lubw_sensor}&von=${format(start)}&bis=${format(end)}`;\n\nmsg.headers = {};\nmsg.headers[\"Accept\"] = \"application/json\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "135e5aaeb36382ef"
+            ]
+        ]
+    },
+    {
+        "id": "135e5aaeb36382ef",
+        "type": "http request",
+        "z": "8d16e76f22ce946f",
+        "g": "8ffcbb28a45e681c",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "digest",
+        "senderr": false,
+        "headers": [],
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "d7138154aa674ffc"
+            ]
+        ]
+    },
+    {
+        "id": "3f23b24611534bcf",
+        "type": "function",
+        "z": "8d16e76f22ce946f",
+        "g": "6a5097b6a8936eb9",
+        "name": "Build standardized observations",
+        "func": "let observations = []\n\nfor (const [sensor, response] of Object.entries(msg.payload)) {\n    for (const mw of response.messwerte) {\n        if (mw.wert == null) { continue }\n\n        let o = {}\n        o.id = \"urn:sdm:AirQualityObserved:lubw:konstanz:\" + sensor \n        o.type = \"AirQualityObserved\"\n\n        o.dateProcessed = {\n            type: 'DateTime',\n            value: new Date().toISOString(),\n        }\n\n        o.time_index = {\n            type: 'DateTime',\n            value: mw.endZeit,\n        }\n        \n        o.dateObserved = {\n            type: 'DateTime',\n            value: mw.endZeit,\n        }\n\n        o[sensor] = {\n            type : \"Number\",\n            value : mw.wert,\n        }\n\n        o.location = {\n            type : \"geo:json\",\n            value : {\n                type: \"Point\",\n                coordinates: [9.1307, 47.6952],\n            }\n        }\n\n        observations.push(o)\n    }\n}\n\nreturn { payload : observations }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 540,
+        "wires": [
+            [
+                "cea6d558a5d4a0d4",
+                "936627a4bae722f1"
+            ]
+        ]
+    },
+    {
+        "id": "cea6d558a5d4a0d4",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "6a5097b6a8936eb9",
+        "name": "observations",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "84992e305bf19a2b",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "6a5097b6a8936eb9",
+        "name": "request",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "6a211d7e7606ae51",
+        "type": "debug",
+        "z": "8d16e76f22ce946f",
+        "g": "6a5097b6a8936eb9",
+        "name": "Orion response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 660,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "c7b8460b30189fe9",
+        "type": "function",
+        "z": "8d16e76f22ce946f",
+        "name": "no-op",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "3f23b24611534bcf",
+                "83e25f11cdf0e44d"
+            ]
+        ]
+    },
+    {
+        "id": "371d89be275b93b9",
+        "type": "function",
+        "z": "8d16e76f22ce946f",
+        "g": "ba91b7eace7d51ab",
+        "name": "prepare Orion request",
+        "func": "let req = {}\n\nreq.url = env.get(\"SC_ORION_SERVER\")+\"/v2/op/update\"\n\nreq.headers = {\n    'Content-Type' : 'application/json',\n    'Fiware-Service' : env.get('FIWARE_SERVICE')\n};\n\nif (typeof msg.servicePath != 'undefined') {\n    req.headers['Fiware-ServicePath'] = msg.servicePath;\n}\n\nreq.payload = {}\nreq.payload.actionType = 'append'\nreq.payload.entities = msg.payload\n\nreturn req",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 900,
+        "wires": [
+            [
+                "20ff76b718ef9b85",
+                "77114355eb2aad75"
+            ]
+        ]
+    },
+    {
+        "id": "0435a283c036e1f1",
+        "type": "comment",
+        "z": "a0f9ae8f73e515f9",
+        "name": "LUBW - Umweltmessstation",
+        "info": "",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "f0210b351d9c3ab1",
+        "type": "http request",
+        "z": "a0f9ae8f73e515f9",
+        "g": "3615b193716ced14",
+        "name": "POST",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 1100,
+        "wires": [
+            [
+                "bc2f910f127f59ee"
+            ]
+        ]
+    },
+    {
+        "id": "bf29418c6af4308a",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "3615b193716ced14",
+        "name": "Build observations",
+        "func": "let observations = [];\nlet now = new Date().toISOString();\n\nfor (const [sensor, response] of Object.entries(msg.payload)) {\n    for (const mw of response.messwerte) {\n        if (mw.wert == null) { continue }\n\n        let o = {}\n        o.id = \"urn:raw:lubw:konstanz:\" + sensor \n        o.type = \"raw_lubw\"\n\n        o.time_index = {}\n        o.time_index.type = \"DateTime\"\n        o.time_index.value = mw.startZeit\n        \n        o.dateProcessed = {\n            type: 'DateTime',\n            value: now,\n        }\n\n        o.endZeit = {}\n        o.endZeit.type = \"DateTime\"\n        o.endZeit.value = mw.endZeit\n\n        o.startZeit = {}\n        o.startZeit.type = \"DateTime\"\n        o.startZeit.value = mw.startZeit\n\n        o.wert = {}\n        o.wert.type = \"Number\"\n        o.wert.value = mw.wert\n\n        o.station = {\n            type : \"TextUnrestricted\",\n            value : response.station,\n        }\n\n        o.komponente = {\n            type : \"TextUnrestricted\",\n            value : response.komponente,\n        }\n\n        observations.push(o)\n    }\n}\n\nreturn { payload : observations }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 940,
+        "wires": [
+            [
+                "86c2a575da3291af",
+                "4a9c4ff6f1dcbb01"
+            ]
+        ]
+    },
+    {
+        "id": "86c2a575da3291af",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "3615b193716ced14",
+        "name": "raw observations",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e3ed5b79c253f8ef",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "3615b193716ced14",
+        "name": "raw request",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "bc2f910f127f59ee",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "3615b193716ced14",
+        "name": "raw Orion response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 710,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "4a9c4ff6f1dcbb01",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "3615b193716ced14",
+        "name": "prepare Orion request",
+        "func": "let req = {}\n\nreq.url = env.get(\"SC_ORION_SERVER\")+\"/v2/op/update\"\n\nreq.headers = {\n    'Content-Type' : 'application/json',\n    'Fiware-Service' : env.get('FIWARE_SERVICE')\n};\n\nif (typeof msg.servicePath != 'undefined') {\n    req.headers['Fiware-ServicePath'] = msg.servicePath;\n}\n\nreq.payload = {}\nreq.payload.actionType = 'append'\nreq.payload.entities = msg.payload\n\nreturn req",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1020,
+        "wires": [
+            [
+                "e3ed5b79c253f8ef",
+                "f0210b351d9c3ab1"
+            ]
+        ]
+    },
+    {
+        "id": "7452a91db77903d8",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "68cffc5d042468c7",
+        "name": "prepare Orion request",
+        "func": "let req = {}\n\nreq.url = env.get(\"SC_ORION_SERVER\")+\"/v2/op/update\"\n\nreq.headers = {\n    'Content-Type' : 'application/json',\n    'Fiware-Service' : env.get('FIWARE_SERVICE')\n};\n\nif (typeof msg.servicePath != 'undefined') {\n    req.headers['Fiware-ServicePath'] = msg.servicePath;\n}\n\nreq.payload = {}\nreq.payload.actionType = 'append'\nreq.payload.entities = msg.payload\n\nreturn req",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 740,
+        "wires": [
+            [
+                "8bd9afcbe14eb2fa",
+                "26512cb0687e4dc6"
+            ]
+        ]
+    },
+    {
+        "id": "26512cb0687e4dc6",
+        "type": "http request",
+        "z": "a0f9ae8f73e515f9",
+        "g": "68cffc5d042468c7",
+        "name": "POST",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 820,
+        "wires": [
+            [
+                "eb8836ce355538b3"
+            ]
+        ]
+    },
+    {
+        "id": "c163d58cf3719d96",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "68cffc5d042468c7",
+        "name": "Build standardized observations",
+        "func": "let observations = []\n\nfor (const [sensor, response] of Object.entries(msg.payload)) {\n    for (const mw of response.messwerte) {\n        if (mw.wert == null) { continue }\n\n        let o = {}\n        o.id = \"urn:sdm:AirQualityObserved:lubw:konstanz:\" + sensor \n        o.type = \"AirQualityObserved\"\n\n        o.dateProcessed = {\n            type: 'DateTime',\n            value: new Date().toISOString(),\n        }\n\n        o.time_index = {\n            type: 'DateTime',\n            value: mw.startZeit,\n        }\n        \n        o.dateObserved = {\n            type: 'DateTime',\n            value: mw.startZeit,\n        }\n\n        o[sensor] = {\n            type : \"Number\",\n            value : mw.wert,\n        }\n\n        o.location = {\n            type : \"geo:json\",\n            value : {\n                type: \"Point\",\n                coordinates: [9.1307, 47.6952],\n            }\n        }\n\n        observations.push(o)\n    }\n}\n\nreturn { payload : observations }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 660,
+        "wires": [
+            [
+                "307763dffaca0a50",
+                "7452a91db77903d8"
+            ]
+        ]
+    },
+    {
+        "id": "307763dffaca0a50",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "68cffc5d042468c7",
+        "name": "observations",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "8bd9afcbe14eb2fa",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "68cffc5d042468c7",
+        "name": "request",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "eb8836ce355538b3",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "68cffc5d042468c7",
+        "name": "Orion response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 740,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "930341d8117a8d47",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "9ec721f4966a2266",
+        "name": "prepare get",
+        "func": "let lubw_sensor = msg.sensor_lubw;\nlet von = msg.lastobs;\nvon.setHours(von.getHours() + 1);\nvon = von.toISOString();\n\nmsg.url = `https://mersyzentrale.de/www/Datenweitergabe/Konstanz/data.php?komponente=${lubw_sensor}&von=${von}`;\n\nmsg.headers = {};\nmsg.headers[\"Accept\"] = \"application/json\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "290021a84fb97f28"
+            ]
+        ]
+    },
+    {
+        "id": "290021a84fb97f28",
+        "type": "http request",
+        "z": "a0f9ae8f73e515f9",
+        "g": "9ec721f4966a2266",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "digest",
+        "senderr": false,
+        "headers": [],
+        "x": 390,
+        "y": 440,
+        "wires": [
+            [
+                "7b80b966ec657846"
+            ]
+        ]
+    },
+    {
+        "id": "c43702eb571e3c6d",
+        "type": "join",
+        "z": "a0f9ae8f73e515f9",
+        "g": "9ec721f4966a2266",
+        "name": "join: <sensor>",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "sensor",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "c163d58cf3719d96",
+                "bf29418c6af4308a"
+            ]
+        ]
+    },
+    {
+        "id": "1134b22d25e52c5a",
+        "type": "comment",
+        "z": "a0f9ae8f73e515f9",
+        "g": "9ec721f4966a2266",
+        "name": "Basic/Digest Auth mit LUBW Zugangsdaten setzen!",
+        "info": "",
+        "x": 710,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b4f0f5ebe527ee2c",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "prepare get",
+        "func": "let sensor = msg.sensor;\n\nmsg.url = env.get(\"DM_QL_SERVER\")+\"/v2/entities/urn:raw:lubw:konstanz:\" + sensor\nmsg.url += \"/attrs/wert/value\"\nmsg.url += \"?lastN=1\"\n\nmsg.headers = {\n    'Fiware-Service' : env.get('FIWARE_SERVICE'),\n    'Fiware-ServicePath' : '/'\n};\n\nreturn msg",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "93ddfb64023897c0"
+            ]
+        ]
+    },
+    {
+        "id": "93ddfb64023897c0",
+        "type": "http request",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "60bf251c7e629dcc",
+                "7072b0b3eaf05faa"
+            ]
+        ]
+    },
+    {
+        "id": "716dbb74c3ccd267",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "lastobs",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "lastobs",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 380,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "60bf251c7e629dcc",
+        "type": "function",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "last observation",
+        "func": "var inputTime;\n\nif (msg.statusCode == 404) {\n    // If time_index is empty, use the current date minus 24 hours\n    inputTime = new Date();    \n    inputTime.setHours(inputTime.getHours() - 24)\n} else {\n    // If time_index is provided, use it\n    inputTime = new Date(msg.payload.index[0]); // UTC Time  \n}\n\nmsg.lastobs = inputTime\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "716dbb74c3ccd267",
+                "930341d8117a8d47"
+            ]
+        ]
+    },
+    {
+        "id": "4b5944ea7540206e",
+        "type": "change",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sensor_lubw",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 220,
+        "wires": [
+            [
+                "b4f0f5ebe527ee2c"
+            ]
+        ]
+    },
+    {
+        "id": "7c9316af2ce87118",
+        "type": "change",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "split setup: <sensor>",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "payload.pm10",
+                "pt": "msg",
+                "to": "PM10",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.pm25",
+                "pt": "msg",
+                "to": "PM2,5",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.o3",
+                "pt": "msg",
+                "to": "O3",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.no2",
+                "pt": "msg",
+                "to": "NO2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "cf70dfe775ef8bc9"
+            ]
+        ]
+    },
+    {
+        "id": "cf70dfe775ef8bc9",
+        "type": "split",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "split: <sensor>",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "sensor",
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "4b5944ea7540206e"
+            ]
+        ]
+    },
+    {
+        "id": "7072b0b3eaf05faa",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "6cb9e26b9fad428a",
+        "name": "QL state",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6af6c9fcd040a864",
+        "type": "comment",
+        "z": "a0f9ae8f73e515f9",
+        "g": "4248f3e1d2ee8e74",
+        "name": "New values are ready about 15 minutes after the interval has passed",
+        "info": "",
+        "x": 810,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "100b26b5dacec0cb",
+        "type": "debug",
+        "z": "a0f9ae8f73e515f9",
+        "g": "9ec721f4966a2266",
+        "name": "lubw error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "7b80b966ec657846",
+        "type": "switch",
+        "z": "a0f9ae8f73e515f9",
+        "g": "9ec721f4966a2266",
+        "name": "if ok",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "300",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 500,
+        "wires": [
+            [
+                "c43702eb571e3c6d"
+            ],
+            [
+                "100b26b5dacec0cb"
+            ]
+        ]
+    },
+    {
+        "id": "374d347b7b6fe499",
+        "type": "cronplus",
+        "z": "a0f9ae8f73e515f9",
+        "g": "4248f3e1d2ee8e74",
+        "name": "cron: at 20 minutes past the hour",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule",
+                "topic": "_",
+                "payloadType": "date",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "20 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 200,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2db68807cd6a139",
+        "type": "debug",
+        "z": "5ef45f84a0404e21",
+        "g": "dceed866dd57010e",
+        "name": "env",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8767214b09c3b933",
+        "type": "inject",
+        "z": "5ef45f84a0404e21",
+        "g": "dceed866dd57010e",
+        "name": "read",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "payload.LUBW_USER",
+                "v": "LUBW_USER",
+                "vt": "env"
+            },
+            {
+                "p": "payload.LUBW_PASSWORD",
+                "v": "LUBW_PASSWORD",
+                "vt": "env"
+            },
+            {
+                "p": "payload.FIWARE_SERVICE",
+                "v": "FIWARE_SERVICE",
+                "vt": "env"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "c2db68807cd6a139"
+            ]
+        ]
+    },
+    {
+        "id": "5c4302ce5dce1136",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "ca5eeb628c0d6d7a",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "99a8ce67d52f0288"
+            ]
+        ]
+    },
+    {
+        "id": "99a8ce67d52f0288",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "ca5eeb628c0d6d7a",
+        "name": "read environment",
+        "func": "return {payload : env.get('FIWARE_SERVICE')}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 80,
+        "wires": [
+            [
+                "adda6578785c2fce"
+            ]
+        ]
+    },
+    {
+        "id": "adda6578785c2fce",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "ca5eeb628c0d6d7a",
+        "name": "service",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3ed39dfea1bcec72",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "Define Statements (CREATE TABLE, ...)",
+        "func": "const dataspace = env.get('FIWARE_SERVICE');\n\nmsg.payload = {statements: []};\nmsg.payload.statements[0] = `\nCREATE TABLE postgrest_${dataspace}.etairqualityobserved (\n    entity_id text,\n    entity_type text,\n    time_index timestamp with time zone NOT NULL,\n    dateprocessed timestamp with time zone,\n    dateobserved timestamp with time zone,\n    location geometry,\n    pm10 double precision,\n    no2 double precision,\n    o3 double precision,\n    pm25 double precision\n)\n`;\n\nmsg.payload.statements[1] = `SELECT create_hypertable('postgrest_${dataspace}.etairqualityobserved', 'time_index')`;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 680,
+        "wires": [
+            [
+                "17bf151937c6a8f3"
+            ]
+        ]
+    },
+    {
+        "id": "17bf151937c6a8f3",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "Configure PostgREST request",
+        "func": "const postgrest = env.get('POSTGREST_API_URL');\n\nmsg.method = 'POST';\nmsg.url = `${postgrest}/rpc/execute_many`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 540,
+        "wires": [
+            [
+                "f22ca1b0081c2126",
+                "b70fda7c2d04bd57"
+            ]
+        ]
+    },
+    {
+        "id": "f22ca1b0081c2126",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "Exec Statement",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e050d224a69c5f67",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "create",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 680,
+        "wires": [
+            [
+                "3ed39dfea1bcec72"
+            ]
+        ]
+    },
+    {
+        "id": "b9553a1cdb5e15c9",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "2a4cd8866b4b9d18",
+        "name": "Define Statement (DROP TABLE)",
+        "func": "const dataspace = env.get('FIWARE_SERVICE');\n\nmsg.payload = { statements: [] };\nmsg.payload.statements[0] = `DROP TABLE IF EXISTS postgrest_${dataspace}.etairqualityobserved`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "17bf151937c6a8f3"
+            ]
+        ]
+    },
+    {
+        "id": "58771ea04a2073e4",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "2a4cd8866b4b9d18",
+        "name": "clean + recreate",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "013fc7de7925c10e",
+                "b9553a1cdb5e15c9"
+            ]
+        ]
+    },
+    {
+        "id": "013fc7de7925c10e",
+        "type": "delay",
+        "z": "77c0c8f18654550c",
+        "g": "2a4cd8866b4b9d18",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 600,
+        "wires": [
+            [
+                "3ed39dfea1bcec72"
+            ]
+        ]
+    },
+    {
+        "id": "b70fda7c2d04bd57",
+        "type": "delay",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "2",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 620,
+        "wires": [
+            [
+                "1630bf7f0a2f22d0",
+                "1011bc6efbacb0c7"
+            ]
+        ]
+    },
+    {
+        "id": "1011bc6efbacb0c7",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "Exec Statement",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "1630bf7f0a2f22d0",
+        "type": "http request",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 850,
+        "y": 680,
+        "wires": [
+            [
+                "1d3623bc18a517d0"
+            ]
+        ]
+    },
+    {
+        "id": "1d3623bc18a517d0",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "dc11a833da7816df",
+        "name": "Exec Response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "'status: ' & msg.statusCode",
+        "statusType": "jsonata",
+        "x": 1160,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "1fde0f9ee4fd3c20",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "Define Statements (CREATE SCHEMA)",
+        "func": "const dataspace = env.get('FIWARE_SERVICE');\n\nmsg.payload = { statements: [] };\nmsg.payload.statements[0] = `CREATE SCHEMA IF NOT EXISTS postgrest_${dataspace}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 400,
+        "wires": [
+            [
+                "de835ae4058ab6a1"
+            ]
+        ]
+    },
+    {
+        "id": "de835ae4058ab6a1",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "Configure PostgREST request",
+        "func": "const postgrest = env.get('POSTGREST_API_URL');\n\nmsg.method = 'POST';\nmsg.url = `${postgrest}/rpc/execute_many`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 260,
+        "wires": [
+            [
+                "4cc9d380ca29a365",
+                "8427e22217ba2f7f"
+            ]
+        ]
+    },
+    {
+        "id": "4cc9d380ca29a365",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "Exec Statement",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b3bb223d6e2e7259",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "create",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 400,
+        "wires": [
+            [
+                "1fde0f9ee4fd3c20"
+            ]
+        ]
+    },
+    {
+        "id": "096777924f968aaf",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "2425339b1ce6fd27",
+        "name": "Define Statement (DROP Schema)",
+        "func": "const dataspace = env.get('FIWARE_SERVICE');\n\nmsg.payload = { statements: [] };\nmsg.payload.statements[0] = `DROP SCHEMA IF EXISTS postgrest_${dataspace}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 260,
+        "wires": [
+            [
+                "de835ae4058ab6a1"
+            ]
+        ]
+    },
+    {
+        "id": "1bc1f6574915af03",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "2425339b1ce6fd27",
+        "name": "clean + recreate",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "0f96b7915dc9db2f",
+                "096777924f968aaf"
+            ]
+        ]
+    },
+    {
+        "id": "0f96b7915dc9db2f",
+        "type": "delay",
+        "z": "77c0c8f18654550c",
+        "g": "2425339b1ce6fd27",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 320,
+        "wires": [
+            [
+                "1fde0f9ee4fd3c20"
+            ]
+        ]
+    },
+    {
+        "id": "8427e22217ba2f7f",
+        "type": "delay",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "2",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 340,
+        "wires": [
+            [
+                "1a5c186f2d287dda",
+                "f00ece2082b314b4"
+            ]
+        ]
+    },
+    {
+        "id": "f00ece2082b314b4",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "Exec Statement",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "1a5c186f2d287dda",
+        "type": "http request",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 850,
+        "y": 400,
+        "wires": [
+            [
+                "b4c07bf5a4fd25ae"
+            ]
+        ]
+    },
+    {
+        "id": "b4c07bf5a4fd25ae",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "2d31311821583692",
+        "name": "Exec Response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "'status: ' & msg.statusCode",
+        "statusType": "jsonata",
+        "x": 1160,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "58ef137d45f31ebb",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "8792331ec774d717",
+        "name": "Go!",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 810,
+        "y": 80,
+        "wires": [
+            [
+                "cc013feb4a43bcad"
+            ]
+        ]
+    },
+    {
+        "id": "cc013feb4a43bcad",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "8792331ec774d717",
+        "name": "read environment",
+        "func": "return {payload : env.get('POSTGREST_API_URL')}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 80,
+        "wires": [
+            [
+                "2778b8a3dfdac30e"
+            ]
+        ]
+    },
+    {
+        "id": "2778b8a3dfdac30e",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "8792331ec774d717",
+        "name": "API",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9d67c680606f715a",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "Define Statements (CREATE TABLE, ...)",
+        "func": "const dataspace = env.get('FIWARE_SERVICE');\n\nmsg.payload = {statements: []};\nmsg.payload.statements[0] = `\nCREATE TABLE postgrest_${dataspace}.etraw_lubw (\n    entity_id text,\n    entity_type text,\n    time_index timestamp with time zone NOT NULL,\n    dateprocessed timestamp with time zone,\n    endzeit timestamp with time zone,\n    startzeit timestamp with time zone,\n    wert double precision,\n    station text,\n    komponente text\n)\n`;\n\nmsg.payload.statements[1] = `SELECT create_hypertable('postgrest_${dataspace}.etraw_lubw', 'time_index')`;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 940,
+        "wires": [
+            [
+                "1ea1dc20f7fdd773"
+            ]
+        ]
+    },
+    {
+        "id": "1ea1dc20f7fdd773",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "Configure PostgREST request",
+        "func": "const postgrest = env.get('POSTGREST_API_URL');\n\nmsg.method = 'POST';\nmsg.url = `${postgrest}/rpc/execute_many`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 800,
+        "wires": [
+            [
+                "5bb1780720af18bb",
+                "0be5aa34ecfd6ea9"
+            ]
+        ]
+    },
+    {
+        "id": "5bb1780720af18bb",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "Exec Statement",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8866113c9d6c473e",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "create",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 940,
+        "wires": [
+            [
+                "9d67c680606f715a"
+            ]
+        ]
+    },
+    {
+        "id": "e1da7cab7996779e",
+        "type": "function",
+        "z": "77c0c8f18654550c",
+        "g": "62b1988c62ee2ac8",
+        "name": "Define Statement (DROP TABLE)",
+        "func": "const dataspace = env.get('FIWARE_SERVICE');\n\nmsg.payload = { statements: [] };\nmsg.payload.statements[0] = `DROP TABLE IF EXISTS postgrest_${dataspace}.etraw_lubw`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 800,
+        "wires": [
+            [
+                "1ea1dc20f7fdd773"
+            ]
+        ]
+    },
+    {
+        "id": "67cd6cefa5a1f5cf",
+        "type": "inject",
+        "z": "77c0c8f18654550c",
+        "g": "62b1988c62ee2ac8",
+        "name": "clean + recreate",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 820,
+        "wires": [
+            [
+                "c2ab6c53b0f8e476",
+                "e1da7cab7996779e"
+            ]
+        ]
+    },
+    {
+        "id": "c2ab6c53b0f8e476",
+        "type": "delay",
+        "z": "77c0c8f18654550c",
+        "g": "62b1988c62ee2ac8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 860,
+        "wires": [
+            [
+                "9d67c680606f715a"
+            ]
+        ]
+    },
+    {
+        "id": "0be5aa34ecfd6ea9",
+        "type": "delay",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "2",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 880,
+        "wires": [
+            [
+                "05a1feb1e14906f1",
+                "f4ba38c07e4cfacd"
+            ]
+        ]
+    },
+    {
+        "id": "f4ba38c07e4cfacd",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "Exec Statement",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "05a1feb1e14906f1",
+        "type": "http request",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 850,
+        "y": 940,
+        "wires": [
+            [
+                "14227ee915800d1f"
+            ]
+        ]
+    },
+    {
+        "id": "14227ee915800d1f",
+        "type": "debug",
+        "z": "77c0c8f18654550c",
+        "g": "30400e35053c989e",
+        "name": "Exec Response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "'status: ' & msg.statusCode",
+        "statusType": "jsonata",
+        "x": 1160,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "8b2b31feb537a97f",
+        "type": "comment",
+        "z": "e92a30bcc6a0047f",
+        "name": "LUBW - Umweltmessstation",
+        "info": "",
+        "x": 180,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fba836079483735c",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "2af0b8669ed7a3f6",
+        "name": "Build observations",
+        "func": "let observations = [];\nlet now = new Date().toISOString();\n\nfor (const [sensor, response] of Object.entries(msg.payload)) {\n    for (const mw of response.messwerte) {\n        if (mw.wert == null) { continue }\n\n        let o = {}\n        o.entity_id = \"urn:raw:lubw:konstanz:\" + sensor \n        o.entity_type = \"raw_lubw\"\n\n        o.time_index = mw.startZeit\n        \n        o.dateprocessed = now\n\n        o.endzeit = mw.endZeit\n\n        o.startzeit =  mw.startZeit\n\n        o.wert =  mw.wert\n\n        o.station = response.station,\n        \n        o.komponente = response.komponente,\n        \n\n        observations.push(o)\n    }\n}\n\nreturn { payload : observations }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 960,
+        "wires": [
+            [
+                "57a493dae4b6a344",
+                "6504e795eadb1c06"
+            ]
+        ]
+    },
+    {
+        "id": "57a493dae4b6a344",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "2af0b8669ed7a3f6",
+        "name": "raw observations",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "ed09b3b57b93cca9",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "2af0b8669ed7a3f6",
+        "name": "request",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "10cdd2d0480f70c6",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "2af0b8669ed7a3f6",
+        "name": "response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 720,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "90fb447f4db18b6e",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "16e81c92122c65b7",
+        "name": "Build standardized observations",
+        "func": "let observations = []\n\nfunction point({lon, lat}) {\n    return `SRID=4326;POINT(${lon} ${lat})`\n}\n\nfunction getSensorReading(sensorType, value) {\n  const sensors = {\n    pm10: null,\n    no2: null,\n    o3: null,\n    pm25: null\n  };\n  \n  // Only update the sensor matching sensorType\n  if (sensors.hasOwnProperty(sensorType)) {\n    sensors[sensorType] = value;\n  }\n\n  return sensors;\n}\n\n\n\nfor (const [sensor, response] of Object.entries(msg.payload)) {\n    for (const mw of response.messwerte) {\n        if (mw.wert == null) { continue }\n\n        let o = {}\n        o.entity_id = \"urn:sdm:AirQualityObserved:lubw:konstanz:\" + sensor \n        o.entity_type = \"AirQualityObserved\"\n        o.time_index = mw.startZeit\n        o.dateprocessed =  new Date().toISOString(),\n        o.dateobserved =  mw.startZeit\n\n        o.location = point({ lat: 47.6952, lon: 9.1307 })\n\n        // this makes sure that all columns are there\n        const sensorReadings = getSensorReading(sensor, mw.wert)\n        for (const [sensorName, value] of Object.entries(sensorReadings)){\n            o[sensorName] = value\n        }\n\n        observations.push(o)\n    }\n}\n\nreturn { payload : observations }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 680,
+        "wires": [
+            [
+                "fd0a451e00e2e5d3",
+                "80f9a4eb784fa5a2"
+            ]
+        ]
+    },
+    {
+        "id": "fd0a451e00e2e5d3",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "16e81c92122c65b7",
+        "name": "observations",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "90d29909c092bfa9",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "841ecdbe4db74f88",
+        "name": "prepare get",
+        "func": "let lubw_sensor = msg.sensor_lubw;\nlet von = msg.lastobs;\nvon.setHours(von.getHours() + 1);\nvon = von.toISOString();\n\nmsg.url = `https://mersyzentrale.lubw.de/www/Datenweitergabe/Konstanz/data.php?komponente=${lubw_sensor}&von=${von}`;\n\nmsg.headers = {};\nmsg.headers[\"Accept\"] = \"application/json\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 460,
+        "wires": [
+            [
+                "78977dd0a3aada20"
+            ]
+        ]
+    },
+    {
+        "id": "78977dd0a3aada20",
+        "type": "http request",
+        "z": "e92a30bcc6a0047f",
+        "g": "841ecdbe4db74f88",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "digest",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 460,
+        "wires": [
+            [
+                "5f12de4d286a02b5"
+            ]
+        ]
+    },
+    {
+        "id": "29ef1c8c80c15bcf",
+        "type": "join",
+        "z": "e92a30bcc6a0047f",
+        "g": "841ecdbe4db74f88",
+        "name": "join: <sensor>",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "sensor",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "90fb447f4db18b6e",
+                "fba836079483735c"
+            ]
+        ]
+    },
+    {
+        "id": "0b898546cdc65084",
+        "type": "comment",
+        "z": "e92a30bcc6a0047f",
+        "g": "841ecdbe4db74f88",
+        "name": "Basic/Digest Auth mit LUBW Zugangsdaten setzen!",
+        "info": "",
+        "x": 750,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8a24358847535040",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "841ecdbe4db74f88",
+        "name": "lubw error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5f12de4d286a02b5",
+        "type": "switch",
+        "z": "e92a30bcc6a0047f",
+        "g": "841ecdbe4db74f88",
+        "name": "if ok",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "300",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 520,
+        "wires": [
+            [
+                "29ef1c8c80c15bcf"
+            ],
+            [
+                "8a24358847535040"
+            ]
+        ]
+    },
+    {
+        "id": "6fb92eeddce1cdc8",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "a846a2bf3f8d12b5",
+        "name": "lastobs",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "lastobs",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 420,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "42e8e5e34809adb7",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "a846a2bf3f8d12b5",
+        "name": "last observation",
+        "func": "var inputTime;\n\nif (msg.payload.length == 0) {\n    // if there are no values, get last 24 hours\n    inputTime = new Date();    \n    inputTime.setHours(inputTime.getHours() - 4)\n} else {\n    // If time_index is provided, use it\n    inputTime = new Date(msg.payload[0]?.time_index); // UTC Time  \n}\n\nmsg.lastobs = inputTime\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 360,
+        "wires": [
+            [
+                "6fb92eeddce1cdc8",
+                "90d29909c092bfa9"
+            ]
+        ]
+    },
+    {
+        "id": "c8056dd4554de7bc",
+        "type": "change",
+        "z": "e92a30bcc6a0047f",
+        "g": "a846a2bf3f8d12b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sensor_lubw",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 240,
+        "wires": [
+            [
+                "c6d89b0d84f79c17"
+            ]
+        ]
+    },
+    {
+        "id": "ac3b651070897bf1",
+        "type": "change",
+        "z": "e92a30bcc6a0047f",
+        "g": "a846a2bf3f8d12b5",
+        "name": "split setup: <sensor>",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "payload.pm10",
+                "pt": "msg",
+                "to": "PM10",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.pm25",
+                "pt": "msg",
+                "to": "PM2,5",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.o3",
+                "pt": "msg",
+                "to": "O3",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.no2",
+                "pt": "msg",
+                "to": "NO2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "cc9514770fba60dc"
+            ]
+        ]
+    },
+    {
+        "id": "cc9514770fba60dc",
+        "type": "split",
+        "z": "e92a30bcc6a0047f",
+        "g": "a846a2bf3f8d12b5",
+        "name": "split: <sensor>",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "sensor",
+        "x": 440,
+        "y": 240,
+        "wires": [
+            [
+                "c8056dd4554de7bc"
+            ]
+        ]
+    },
+    {
+        "id": "ec45649c0a8c89ca",
+        "type": "comment",
+        "z": "e92a30bcc6a0047f",
+        "g": "f4b09cd43f0f361f",
+        "name": "New values are ready about 15 minutes after the interval has passed",
+        "info": "",
+        "x": 850,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c6d89b0d84f79c17",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "e62853720cf0fd15",
+        "name": "configure PostGresT request",
+        "func": "const postgrest = env.get('POSTGREST_API_URL');\n\nconst dataspace = env.get('FIWARE_SERVICE');\n\nmsg.table = \"etraw_lubw\"\n\nconst entity_id = \"urn:raw:lubw:konstanz:\" + msg.sensor\n\nmsg.url = `${postgrest}/${msg.table}?order=time_index.desc&entity_id=eq.${entity_id}&limit=1`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    \"Accept-Profile\": `postgrest_${dataspace}`,    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 240,
+        "wires": [
+            [
+                "186c4edbc2c472e2"
+            ]
+        ]
+    },
+    {
+        "id": "186c4edbc2c472e2",
+        "type": "http request",
+        "z": "e92a30bcc6a0047f",
+        "g": "e62853720cf0fd15",
+        "name": "GET",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 950,
+        "y": 300,
+        "wires": [
+            [
+                "42e8e5e34809adb7"
+            ]
+        ]
+    },
+    {
+        "id": "80f9a4eb784fa5a2",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "16e81c92122c65b7",
+        "name": "configure PostGresT request",
+        "func": "const postgrest = env.get('POSTGREST_API_URL');\n\nconst dataspace = env.get('FIWARE_SERVICE');\n\nmsg.method = 'POST';\nmsg.url = `${postgrest}/etairqualityobserved`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    \"Content-Profile\": `postgrest_${dataspace}`,    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 760,
+        "wires": [
+            [
+                "5c842c2bbe1b578b",
+                "6301e51f816975aa"
+            ]
+        ]
+    },
+    {
+        "id": "6301e51f816975aa",
+        "type": "http request",
+        "z": "e92a30bcc6a0047f",
+        "g": "16e81c92122c65b7",
+        "name": "POST",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 450,
+        "y": 820,
+        "wires": [
+            [
+                "bdebb3e54f40c9ea"
+            ]
+        ]
+    },
+    {
+        "id": "5c842c2bbe1b578b",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "16e81c92122c65b7",
+        "name": "request",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "bdebb3e54f40c9ea",
+        "type": "debug",
+        "z": "e92a30bcc6a0047f",
+        "g": "16e81c92122c65b7",
+        "name": "response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "statusCode",
+        "statusType": "msg",
+        "x": 780,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "6504e795eadb1c06",
+        "type": "function",
+        "z": "e92a30bcc6a0047f",
+        "g": "2af0b8669ed7a3f6",
+        "name": "configure PostGresT request",
+        "func": "const postgrest = env.get('POSTGREST_API_URL');\n\nconst dataspace = env.get('FIWARE_SERVICE');\n\nmsg.method = 'POST';\nmsg.url = `${postgrest}/etraw_lubw`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    \"Content-Profile\": `postgrest_${dataspace}`,    \n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1040,
+        "wires": [
+            [
+                "bdee35b3a3b11cef",
+                "ed09b3b57b93cca9"
+            ]
+        ]
+    },
+    {
+        "id": "bdee35b3a3b11cef",
+        "type": "http request",
+        "z": "e92a30bcc6a0047f",
+        "g": "2af0b8669ed7a3f6",
+        "name": "POST",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 1120,
+        "wires": [
+            [
+                "10cdd2d0480f70c6"
+            ]
+        ]
+    },
+    {
+        "id": "d6e2d12a9b4ca37d",
+        "type": "cronplus",
+        "z": "e92a30bcc6a0047f",
+        "g": "f4b09cd43f0f361f",
+        "name": "cron: at 20 minutes past the hour",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule",
+                "topic": "_",
+                "payloadType": "date",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "20 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "ac3b651070897bf1"
+            ]
+        ]
+    }
+]

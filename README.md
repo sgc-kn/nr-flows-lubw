@@ -1,7 +1,7 @@
 nr-flows-lubw
 =============
 
-https://github.com/sgc-kn/nr-flows-mobidata
+https://github.com/sgc-kn/nr-flows-lubw
 
 ### About
 
