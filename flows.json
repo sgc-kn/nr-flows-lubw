@@ -18,7 +18,7 @@
     {
         "id": "5ef45f84a0404e21",
         "type": "tab",
-        "label": "Instance Helpers",
+        "label": "Environment",
         "disabled": false,
         "info": "",
         "env": []
@@ -89,26 +89,6 @@
         "h": 488
     },
     {
-        "id": "ca5eeb628c0d6d7a",
-        "type": "group",
-        "z": "77c0c8f18654550c",
-        "name": "Show service name",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "5c4302ce5dce1136",
-            "99a8ce67d52f0288",
-            "adda6578785c2fce"
-        ],
-        "x": 74,
-        "y": 39,
-        "w": 572,
-        "h": 82
-    },
-    {
         "id": "dc11a833da7816df",
         "type": "group",
         "z": "77c0c8f18654550c",
@@ -128,8 +108,8 @@
             "1630bf7f0a2f22d0",
             "1d3623bc18a517d0"
         ],
-        "x": 68,
-        "y": 473,
+        "x": 48,
+        "y": 313,
         "w": 1218,
         "h": 248
     },
@@ -153,30 +133,10 @@
             "1a5c186f2d287dda",
             "b4c07bf5a4fd25ae"
         ],
-        "x": 68,
-        "y": 193,
+        "x": 48,
+        "y": 33,
         "w": 1218,
         "h": 248
-    },
-    {
-        "id": "8792331ec774d717",
-        "type": "group",
-        "z": "77c0c8f18654550c",
-        "name": "Show API-URL ",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "58ef137d45f31ebb",
-            "cc013feb4a43bcad",
-            "2778b8a3dfdac30e"
-        ],
-        "x": 714,
-        "y": 39,
-        "w": 572,
-        "h": 82
     },
     {
         "id": "30400e35053c989e",
@@ -198,28 +158,10 @@
             "05a1feb1e14906f1",
             "14227ee915800d1f"
         ],
-        "x": 68,
-        "y": 733,
+        "x": 48,
+        "y": 573,
         "w": 1218,
         "h": 248
-    },
-    {
-        "id": "dceed866dd57010e",
-        "type": "group",
-        "z": "5ef45f84a0404e21",
-        "name": "Read Environment Variables",
-        "style": {
-            "label": true,
-            "fill": "#e3f3d3"
-        },
-        "nodes": [
-            "c2db68807cd6a139",
-            "8767214b09c3b933"
-        ],
-        "x": 34,
-        "y": 39,
-        "w": 392,
-        "h": 82
     },
     {
         "id": "841ecdbe4db74f88",
@@ -281,8 +223,8 @@
             "58771ea04a2073e4",
             "013fc7de7925c10e"
         ],
-        "x": 94,
-        "y": 499,
+        "x": 74,
+        "y": 339,
         "w": 572,
         "h": 142
     },
@@ -301,8 +243,8 @@
             "1bc1f6574915af03",
             "0f96b7915dc9db2f"
         ],
-        "x": 94,
-        "y": 219,
+        "x": 74,
+        "y": 59,
         "w": 572,
         "h": 142
     },
@@ -321,8 +263,8 @@
             "67cd6cefa5a1f5cf",
             "c2ab6c53b0f8e476"
         ],
-        "x": 94,
-        "y": 759,
+        "x": 74,
+        "y": 599,
         "w": 572,
         "h": 142
     },
@@ -976,65 +918,6 @@
         ]
     },
     {
-        "id": "5c4302ce5dce1136",
-        "type": "inject",
-        "z": "77c0c8f18654550c",
-        "g": "ca5eeb628c0d6d7a",
-        "name": "Go!",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 170,
-        "y": 80,
-        "wires": [
-            [
-                "99a8ce67d52f0288"
-            ]
-        ]
-    },
-    {
-        "id": "99a8ce67d52f0288",
-        "type": "function",
-        "z": "77c0c8f18654550c",
-        "g": "ca5eeb628c0d6d7a",
-        "name": "read environment",
-        "func": "return {payload : env.get('FIWARE_SERVICE')}",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 80,
-        "wires": [
-            [
-                "adda6578785c2fce"
-            ]
-        ]
-    },
-    {
-        "id": "adda6578785c2fce",
-        "type": "debug",
-        "z": "77c0c8f18654550c",
-        "g": "ca5eeb628c0d6d7a",
-        "name": "service",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 540,
-        "y": 80,
-        "wires": []
-    },
-    {
         "id": "3ed39dfea1bcec72",
         "type": "function",
         "z": "77c0c8f18654550c",
@@ -1047,8 +930,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 680,
+        "x": 440,
+        "y": 520,
         "wires": [
             [
                 "17bf151937c6a8f3"
@@ -1068,8 +951,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 540,
+        "x": 870,
+        "y": 380,
         "wires": [
             [
                 "f22ca1b0081c2126",
@@ -1091,8 +974,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 540,
+        "x": 1140,
+        "y": 380,
         "wires": []
     },
     {
@@ -1107,8 +990,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 680,
+        "x": 170,
+        "y": 520,
         "wires": [
             [
                 "3ed39dfea1bcec72"
@@ -1128,8 +1011,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 540,
+        "x": 480,
+        "y": 380,
         "wires": [
             [
                 "17bf151937c6a8f3"
@@ -1148,8 +1031,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 220,
-        "y": 560,
+        "x": 200,
+        "y": 400,
         "wires": [
             [
                 "013fc7de7925c10e",
@@ -1175,8 +1058,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 440,
-        "y": 600,
+        "x": 420,
+        "y": 440,
         "wires": [
             [
                 "3ed39dfea1bcec72"
@@ -1201,8 +1084,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 880,
-        "y": 620,
+        "x": 860,
+        "y": 460,
         "wires": [
             [
                 "1630bf7f0a2f22d0",
@@ -1224,8 +1107,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 620,
+        "x": 1140,
+        "y": 460,
         "wires": []
     },
     {
@@ -1245,8 +1128,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 850,
-        "y": 680,
+        "x": 830,
+        "y": 520,
         "wires": [
             [
                 "1d3623bc18a517d0"
@@ -1267,8 +1150,8 @@
         "targetType": "msg",
         "statusVal": "'status: ' & msg.statusCode",
         "statusType": "jsonata",
-        "x": 1160,
-        "y": 680,
+        "x": 1140,
+        "y": 520,
         "wires": []
     },
     {
@@ -1284,8 +1167,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 400,
+        "x": 440,
+        "y": 240,
         "wires": [
             [
                 "de835ae4058ab6a1"
@@ -1305,8 +1188,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 260,
+        "x": 870,
+        "y": 100,
         "wires": [
             [
                 "4cc9d380ca29a365",
@@ -1328,8 +1211,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 260,
+        "x": 1140,
+        "y": 100,
         "wires": []
     },
     {
@@ -1344,8 +1227,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 400,
+        "x": 170,
+        "y": 240,
         "wires": [
             [
                 "1fde0f9ee4fd3c20"
@@ -1365,8 +1248,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 260,
+        "x": 480,
+        "y": 100,
         "wires": [
             [
                 "de835ae4058ab6a1"
@@ -1385,8 +1268,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 220,
-        "y": 280,
+        "x": 200,
+        "y": 120,
         "wires": [
             [
                 "0f96b7915dc9db2f",
@@ -1412,8 +1295,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 440,
-        "y": 320,
+        "x": 420,
+        "y": 160,
         "wires": [
             [
                 "1fde0f9ee4fd3c20"
@@ -1438,8 +1321,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 880,
-        "y": 340,
+        "x": 860,
+        "y": 180,
         "wires": [
             [
                 "1a5c186f2d287dda",
@@ -1461,8 +1344,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 340,
+        "x": 1140,
+        "y": 180,
         "wires": []
     },
     {
@@ -1482,8 +1365,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 850,
-        "y": 400,
+        "x": 830,
+        "y": 240,
         "wires": [
             [
                 "b4c07bf5a4fd25ae"
@@ -1504,67 +1387,8 @@
         "targetType": "msg",
         "statusVal": "'status: ' & msg.statusCode",
         "statusType": "jsonata",
-        "x": 1160,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "58ef137d45f31ebb",
-        "type": "inject",
-        "z": "77c0c8f18654550c",
-        "g": "8792331ec774d717",
-        "name": "Go!",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 810,
-        "y": 80,
-        "wires": [
-            [
-                "cc013feb4a43bcad"
-            ]
-        ]
-    },
-    {
-        "id": "cc013feb4a43bcad",
-        "type": "function",
-        "z": "77c0c8f18654550c",
-        "g": "8792331ec774d717",
-        "name": "read environment",
-        "func": "return {payload : env.get('POSTGREST_API_URL')}",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 990,
-        "y": 80,
-        "wires": [
-            [
-                "2778b8a3dfdac30e"
-            ]
-        ]
-    },
-    {
-        "id": "2778b8a3dfdac30e",
-        "type": "debug",
-        "z": "77c0c8f18654550c",
-        "g": "8792331ec774d717",
-        "name": "API",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1190,
-        "y": 80,
+        "x": 1140,
+        "y": 240,
         "wires": []
     },
     {
@@ -1580,8 +1404,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 940,
+        "x": 440,
+        "y": 780,
         "wires": [
             [
                 "1ea1dc20f7fdd773"
@@ -1601,8 +1425,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
-        "y": 800,
+        "x": 870,
+        "y": 640,
         "wires": [
             [
                 "5bb1780720af18bb",
@@ -1624,8 +1448,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 800,
+        "x": 1140,
+        "y": 640,
         "wires": []
     },
     {
@@ -1640,8 +1464,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 940,
+        "x": 170,
+        "y": 780,
         "wires": [
             [
                 "9d67c680606f715a"
@@ -1661,8 +1485,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 800,
+        "x": 480,
+        "y": 640,
         "wires": [
             [
                 "1ea1dc20f7fdd773"
@@ -1681,8 +1505,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 220,
-        "y": 820,
+        "x": 200,
+        "y": 660,
         "wires": [
             [
                 "c2ab6c53b0f8e476",
@@ -1708,8 +1532,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 440,
-        "y": 860,
+        "x": 420,
+        "y": 700,
         "wires": [
             [
                 "9d67c680606f715a"
@@ -1734,8 +1558,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 880,
-        "y": 880,
+        "x": 860,
+        "y": 720,
         "wires": [
             [
                 "05a1feb1e14906f1",
@@ -1757,8 +1581,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 880,
+        "x": 1140,
+        "y": 720,
         "wires": []
     },
     {
@@ -1778,8 +1602,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 850,
-        "y": 940,
+        "x": 830,
+        "y": 780,
         "wires": [
             [
                 "14227ee915800d1f"
@@ -1800,52 +1624,18 @@
         "targetType": "msg",
         "statusVal": "'status: ' & msg.statusCode",
         "statusType": "jsonata",
-        "x": 1160,
-        "y": 940,
+        "x": 1140,
+        "y": 780,
         "wires": []
     },
     {
-        "id": "c2db68807cd6a139",
-        "type": "debug",
-        "z": "5ef45f84a0404e21",
-        "g": "dceed866dd57010e",
-        "name": "env",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 330,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "8767214b09c3b933",
+        "id": "0f4f987967cd5ee1",
         "type": "inject",
         "z": "5ef45f84a0404e21",
-        "g": "dceed866dd57010e",
-        "name": "read",
+        "name": "Name",
         "props": [
             {
                 "p": "payload"
-            },
-            {
-                "p": "payload.LUBW_USER",
-                "v": "LUBW_USER",
-                "vt": "env"
-            },
-            {
-                "p": "payload.LUBW_PASSWORD",
-                "v": "LUBW_PASSWORD",
-                "vt": "env"
-            },
-            {
-                "p": "payload.FIWARE_SERVICE",
-                "v": "FIWARE_SERVICE",
-                "vt": "env"
             }
         ],
         "repeat": "",
@@ -1853,14 +1643,237 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "{}",
-        "payloadType": "json",
-        "x": 130,
-        "y": 80,
+        "payload": "FIWARE_SERVICE",
+        "payloadType": "str",
+        "x": 110,
+        "y": 60,
         "wires": [
             [
-                "c2db68807cd6a139"
+                "0993ad2062d69031"
             ]
         ]
+    },
+    {
+        "id": "0993ad2062d69031",
+        "type": "function",
+        "z": "5ef45f84a0404e21",
+        "name": "env.get",
+        "func": "msg.payload = env.get(msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 60,
+        "wires": [
+            [
+                "7fff2e2870ed2234"
+            ]
+        ]
+    },
+    {
+        "id": "7fff2e2870ed2234",
+        "type": "debug",
+        "z": "5ef45f84a0404e21",
+        "name": "FIWARE_SERVICE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 510,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a7a0b924e88371c1",
+        "type": "inject",
+        "z": "5ef45f84a0404e21",
+        "name": "Name",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "POSTGREST_API_URL",
+        "payloadType": "str",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "ba6f6964b310b054"
+            ]
+        ]
+    },
+    {
+        "id": "ba6f6964b310b054",
+        "type": "function",
+        "z": "5ef45f84a0404e21",
+        "name": "env.get",
+        "func": "msg.payload = env.get(msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "5a1ed329cfd10f13"
+            ]
+        ]
+    },
+    {
+        "id": "5a1ed329cfd10f13",
+        "type": "debug",
+        "z": "5ef45f84a0404e21",
+        "name": "POSTGREST_API_URL",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "42a0eff944838ad0",
+        "type": "inject",
+        "z": "5ef45f84a0404e21",
+        "name": "Name",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LUBW_USER",
+        "payloadType": "str",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "48359f3cddfdb7f0"
+            ]
+        ]
+    },
+    {
+        "id": "48359f3cddfdb7f0",
+        "type": "function",
+        "z": "5ef45f84a0404e21",
+        "name": "env.get",
+        "func": "msg.payload = env.get(msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "2610b9a8d58c6f8f"
+            ]
+        ]
+    },
+    {
+        "id": "2610b9a8d58c6f8f",
+        "type": "debug",
+        "z": "5ef45f84a0404e21",
+        "name": "LUBW_USER",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 500,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7458d9e5d6d23b5d",
+        "type": "inject",
+        "z": "5ef45f84a0404e21",
+        "name": "Name",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LUBW_PASSWORD",
+        "payloadType": "str",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "1ec56e3f3299f0fd"
+            ]
+        ]
+    },
+    {
+        "id": "1ec56e3f3299f0fd",
+        "type": "function",
+        "z": "5ef45f84a0404e21",
+        "name": "env.get",
+        "func": "msg.payload = env.get(msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "417fbc555ba162be"
+            ]
+        ]
+    },
+    {
+        "id": "417fbc555ba162be",
+        "type": "debug",
+        "z": "5ef45f84a0404e21",
+        "name": "LUBW_PASSWORD",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 520,
+        "y": 300,
+        "wires": []
     }
 ]
