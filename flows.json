@@ -575,7 +575,7 @@
         "z": "e92a30bcc6a0047f",
         "g": "a846a2bf3f8d12b5",
         "name": "last observation",
-        "func": "var inputTime;\n\nif (msg.payload.length == 0) {\n    // if there are no values, get last 24 hours\n    inputTime = new Date();    \n    inputTime.setHours(inputTime.getHours() - 4)\n} else {\n    // If time_index is provided, use it\n    inputTime = new Date(msg.payload[0]?.time_index); // UTC Time  \n}\n\nmsg.lastobs = inputTime\n\nreturn msg;",
+        "func": "var inputTime;\n\nif (msg.payload.length == 0) {\n    // if there are no values, get last 4 hours\n    inputTime = new Date();    \n    inputTime.setHours(inputTime.getHours() - 4)\n} else {\n    // If time_index is provided, use it\n    inputTime = new Date(msg.payload[0]?.time_index); // UTC Time  \n}\n\nmsg.lastobs = inputTime\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
