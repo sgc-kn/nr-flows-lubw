@@ -420,7 +420,7 @@
         "z": "e92a30bcc6a0047f",
         "g": "841ecdbe4db74f88",
         "name": "prepare get",
-        "func": "let lubw_sensor = msg.sensor_lubw;\nlet von = msg.lastobs;\nvon.setHours(von.getHours() + 1);\nvon = von.toISOString();\n\nmsg.url = `https://mersyzentrale.lubw.de/www/Datenweitergabe/Konstanz/data.php?komponente=${lubw_sensor}&von=${von}`;\n\nmsg.headers = {};\nmsg.headers[\"Accept\"] = \"application/json\"\n\nreturn msg;",
+        "func": "let lubw_sensor = msg.sensor_lubw;\nlet von = msg.lastobs;\nvon.setHours(von.getHours() + 1);\nvon = von.toISOString();\nlet bis = new Date();\nbis.setHours(bis.getHours() + 1);\nbis.setMinutes(0);\nbis.setSeconds(0);\nbis.setMilliseconds(0);\nbis = bis.toISOString()\n\nmsg.url = `https://mersyzentrale.lubw.de/www/Datenweitergabe/Konstanz/data.php?komponente=${lubw_sensor}&von=${von}&bis=${bis}`;\n\nmsg.headers = {};\nmsg.headers[\"Accept\"] = \"application/json\"\n\nmsg.payload = {}\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
